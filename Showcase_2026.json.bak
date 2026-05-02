@@ -18,8 +18,8 @@
             "name": "Thank You"
         }
     ],
-    "current_scene": "Starting Soon",
-    "current_program_scene": "Starting Soon",
+    "current_scene": "Thank You",
+    "current_program_scene": "Thank You",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
@@ -50,7 +50,7 @@
     "saved_projectors": [],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -13,
+    "scaling_level": -12,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -87,14 +87,14 @@
     "sources": [
         {
             "prev_ver": 536936449,
-            "name": "Donation Alert",
-            "uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
+            "name": "Dog",
+            "uuid": "4519f679-66a2-4356-a245-d5e937b4c72e",
+            "id": "image_source",
+            "versioned_id": "image_source",
             "settings": {
-                "url": "https://streamlabs.com/alert-box/v3/0B309068706EF8E266D45FF93B30A90C5B24150EC6F2D4BF19279F05A8ABE24B740BB66E371BE89A4E979BC80F72D629025722796D6C2E6BF38657C182F60EB99FD0978DEA9E7C3C59A85574192A52F2541B0E68BFBD622AB058A623C5B1C894B96DF1D4F6A03DBADFE1B0EB0DBEF56008BDC4730B908205F11F2A9F78"
+                "file": "C:/Portable_OBS/images/Dog_Breeds.jpg"
             },
-            "mixers": 255,
+            "mixers": 0,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -105,13 +105,7 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -124,7 +118,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
+                "id_counter": 1,
                 "custom_size": false,
                 "items": [
                     {
@@ -181,61 +175,6 @@
                             "duration": 300
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Donation Alert",
-                        "source_uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 667.0,
-                            "y": 250.0
-                        },
-                        "pos_rel": {
-                            "x": -0.5425925850868225,
-                            "y": -0.5370370149612427
-                        },
-                        "scale": {
-                            "x": 0.6487500071525574,
-                            "y": 0.6483333110809326
-                        },
-                        "scale_rel": {
-                            "x": 0.6487500071525574,
-                            "y": 0.6483333110809326
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -253,9 +192,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -296,9 +233,64 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 3,
+                "id_counter": 2,
                 "custom_size": false,
                 "items": [
+                    {
+                        "name": "Dog",
+                        "source_uuid": "4519f679-66a2-4356-a245-d5e937b4c72e",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 339.0,
+                            "y": 163.0
+                        },
+                        "pos_rel": {
+                            "x": -1.149999976158142,
+                            "y": -0.6981481313705444
+                        },
+                        "scale": {
+                            "x": 3.7121212482452393,
+                            "y": 3.712550640106201
+                        },
+                        "scale_rel": {
+                            "x": 3.7121212482452393,
+                            "y": 3.712550640106201
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
                     {
                         "name": "Present",
                         "source_uuid": "1280baca-2166-44cd-848c-1b10889b2241",
@@ -353,61 +345,6 @@
                             "duration": 300
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Donation Alert",
-                        "source_uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1445.0,
-                            "y": 247.0
-                        },
-                        "pos_rel": {
-                            "x": 0.8981481194496155,
-                            "y": -0.5425925850868225
-                        },
-                        "scale": {
-                            "x": 0.49125000834465027,
-                            "y": 0.49166667461395264
-                        },
-                        "scale_rel": {
-                            "x": 0.49125000834465027,
-                            "y": 0.49166667461395264
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -424,10 +361,10 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -468,7 +405,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
+                "id_counter": 1,
                 "custom_size": false,
                 "items": [
                     {
@@ -525,61 +462,6 @@
                             "duration": 300
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Donation Alert",
-                        "source_uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 728.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": 0.3481481075286865
-                        },
-                        "scale": {
-                            "x": 0.5862500071525574,
-                            "y": 0.5866666436195374
-                        },
-                        "scale_rel": {
-                            "x": 0.5862500071525574,
-                            "y": 0.5866666436195374
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -597,9 +479,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -614,7 +494,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 2,
+                "id_counter": 1,
                 "custom_size": false,
                 "items": [
                     {
@@ -671,61 +551,6 @@
                             "duration": 300
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Donation Alert",
-                        "source_uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1481.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": 0.9648148417472839,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.5487499833106995,
-                            "y": 0.5483333468437195
-                        },
-                        "scale_rel": {
-                            "x": 0.5487499833106995,
-                            "y": 0.5483333468437195
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -743,9 +568,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -812,7 +635,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 3,
+                "id_counter": 1,
                 "custom_size": false,
                 "items": [
                     {
@@ -869,61 +692,6 @@
                             "duration": 300
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Donation Alert",
-                        "source_uuid": "c4ef2fe4-57c0-41ba-8619-eff09853680d",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 667.0,
-                            "y": 250.0
-                        },
-                        "pos_rel": {
-                            "x": -0.5425925850868225,
-                            "y": -0.5370370149612427
-                        },
-                        "scale": {
-                            "x": 0.6487500071525574,
-                            "y": 0.6483333110809326
-                        },
-                        "scale_rel": {
-                            "x": 0.6487500071525574,
-                            "y": 0.6483333110809326
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -941,9 +709,7 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": []
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
